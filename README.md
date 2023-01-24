@@ -12,6 +12,8 @@
 
 ## Project Website Link <br>
 
+## Aknowledgement <br>
+
 
 ## Project Authors <br>
 <p>Samuel Osiyomeoh Samuel <li>https://github.com/Osiyomeoh </li>
@@ -22,6 +24,14 @@
 <p>Agbo Chiemezie Precious <li> https://github.com/chiemezie1  </li>   </p><br>
 
 ## How to Install/Run this Project <br>
+<p>1. Install the various dependencies using npm install   </p>
+<p>2. Navigate to the contract folder, compile and deploy the contract using hardhat or truffle   </p>
+<p>3. Navigate back to the root folder and use npm run build to build the app for production then use npm start to run up the react App on localhost:3000  <p>
+
+## LICENSE <br>
+<p>MIT </p>
+<p>GRANDIDA</p>
+
 
  
 
