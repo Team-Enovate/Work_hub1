@@ -24,6 +24,41 @@
 <p>Agbo Chiemezie Precious <li> https://github.com/chiemezie1  </li>   </p><br>
 
 ## How to Install/Run this Project <br>
+
+This is an example of how you can set up your project locally. To get a local copy up and running follow these simple example steps.
+
+1. Clone the repo
+
+```sh
+git clone with HTTPS          https://github.com/Team-Enovate/Work_hub.git
+git clone with SSH            git@github.com:Team-Enovate/Work_hub.git
+git clone with Github CLI     gh repo clone Team-Enovate/Work_hub
+```
+2. Development
+
+Running the frontend code
+
+```sh
+1. npm install
+2. npm run start
+```
+
+Running the smart contract
+
+```sh
+1. cd contracts
+2. npm install
+3. npx hardhat run scripts/run.js
+4. make sure you fill up the information in .env file
+```
+
+This is how your .env file is suppose to look like. Remember to remove `<>` when placing your private and API keys.
+
+```sh
+PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
+WEB3_API_KEY=<WEB3_API_KEY>
+WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
+```
 <p>1. Install the various dependencies using npm install   </p>
 <p>2. Navigate to the contract folder, compile and deploy the contract using hardhat or truffle   </p>
 <p>3. Navigate back to the root folder and use npm run build to build the app for production then use npm start to run up the react App on localhost:3000  <p>
